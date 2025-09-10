@@ -18,7 +18,7 @@ export const todos: TodoList = [
         progress: 4,
         photo: {
             image1: "/asianClothModel.jpg",
-            image2: "/BlackModelCloth.jpg",
+            image2: "/blackModelCloth.jpg",
             image3: "/manyWigs.jpg"
         }
     },
@@ -39,7 +39,7 @@ export const todos: TodoList = [
         progress: 2,
         photo: {
             image1: "/asianClothModel.jpg",
-            image2: "/BlackModelCloth.jpg",
+            image2: "/blackModelCloth.jpg",
             image3: "/manyWigs.jpg"
         }
     },
@@ -54,7 +54,7 @@ export const  IN_PROGRESS : TodoList = [
         progress: 3,
         photo: {
             image1: "/asianClothModel.jpg",
-            image2: "/BlackModelCloth.jpg",
+            image2: "/blackModelCloth.jpg",
             image3: "/manyWigs.jpg"
         }
     },
@@ -75,7 +75,7 @@ export const  IN_PROGRESS : TodoList = [
         progress: 4,
         photo: {
             image1: "/asianClothModel.jpg",
-            image2: "/BlackModelCloth.jpg",
+            image2: "/blackModelCloth.jpg",
             image3: "/manyWigs.jpg"
         }
     },
@@ -117,7 +117,7 @@ export const Done: TodoList = [
         progress: 10,
         photo: {
             image1: "/asianClothModel.jpg",
-            image2: "/BlackModelCloth.jpg",
+            image2: "/blackModelCloth.jpg",
             image3: "/manyWigs.jpg"
         }
     }
