@@ -7,14 +7,14 @@ export default function MiniSideBar(){
                 <p><EllipsisIcon/></p>
             </div>
             <Framer className="mt-10"/>
-            <p className="hover:bg-gray-700 rounded-full p-2"><SlidersHorizontal/></p>
-            <p className="hover:bg-gray-700 rounded-full p-2"><User2 /></p>
-            <p className="hover:bg-gray-700 rounded-full p-2"><Calendar /></p>
-            <p className="hover:bg-gray-700 rounded-full p-2"><Map/></p>
-            <p className="hover:bg-gray-700 rounded-full p-2"><CloudUpload/></p>
-            <p className="hover:bg-gray-700 rounded-full p-2"><Blocks/></p>
-            <p className="hover:bg-gray-700 rounded-full p-2"><MemoryStick/></p>
-            <p className="hover:bg-gray-700 rounded-full p-2 mt-10 "><LogOut /></p>
+            <p className="hover:bg-gray-700 transition-all duration-300 rounded-full p-2"><SlidersHorizontal/></p>
+            <p className="hover:bg-gray-700 transition-all duration-300 rounded-full p-2"><User2 /></p>
+            <p className="hover:bg-gray-700 transition-all duration-300 rounded-full p-2"><Calendar /></p>
+            <p className="hover:bg-gray-700 transition-all duration-300 rounded-full p-2"><Map/></p>
+            <p className="hover:bg-gray-700 transition-all duration-300 rounded-full p-2"><CloudUpload/></p>
+            <p className="hover:bg-gray-700 transition-all duration-300 rounded-full p-2"><Blocks/></p>
+            <p className="hover:bg-gray-700 transition-all duration-300 rounded-full p-2"><MemoryStick/></p>
+            <p className="hover:bg-gray-700 transition-all duration-300 rounded-full p-2 mt-10 "><LogOut /></p>
         </nav>
     )
 }

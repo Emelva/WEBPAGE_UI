@@ -18,7 +18,8 @@ export const todos: TodoList = [
         progress: 4,
         photo: {
             image1: "/asianClothModel.jpg",
-            image2: "/BlackModelCloth.jpg"
+            image2: "/BlackModelCloth.jpg",
+            image3: "/manyWigs.jpg"
         }
     },
     {
@@ -38,7 +39,8 @@ export const todos: TodoList = [
         progress: 2,
         photo: {
             image1: "/asianClothModel.jpg",
-            image2: "/BlackModelCloth.jpg"
+            image2: "/BlackModelCloth.jpg",
+            image3: "/manyWigs.jpg"
         }
     },
 ]
@@ -51,8 +53,9 @@ export const  IN_PROGRESS : TodoList = [
         date: "12 Nov 2022",
         progress: 3,
         photo: {
-            image1: "",
-            image2: ""
+            image1: "/asianClothModel.jpg",
+            image2: "/BlackModelCloth.jpg",
+            image3: "/manyWigs.jpg"
         }
     },
     {
@@ -71,8 +74,9 @@ export const  IN_PROGRESS : TodoList = [
         date: "14 Nov 2022",
         progress: 4,
         photo: {
-            image1: "",
-            image2: ""
+            image1: "/asianClothModel.jpg",
+            image2: "/BlackModelCloth.jpg",
+            image3: "/manyWigs.jpg"
         }
     },
     {
@@ -112,8 +116,9 @@ export const Done: TodoList = [
         date: "8 Jan 2022",
         progress: 10,
         photo: {
-            image1: "",
-            image2: ""
+            image1: "/asianClothModel.jpg",
+            image2: "/BlackModelCloth.jpg",
+            image3: "/manyWigs.jpg"
         }
     }
 ]

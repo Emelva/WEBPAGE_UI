@@ -43,7 +43,7 @@ export default function MaxSidebar(){
 
 
 
-                <button className={`flex gap-2 ${theme === "dark" ? "bg-gray-400 text-gray-900" : "bg-gray-200"} shadow-xl py-1 rounded-xl my-4`}>
+                <button className={`flex gap-2 transition-all duration-300 ${theme === "dark" ? "bg-gray-400 text-gray-900" : "bg-gray-200"} shadow-xl py-1 rounded-xl my-4`}>
                     <div className="flex hover:bg-white text-black rounded-2xl p-2 hover:shadow-xl" onClick={() => setTheme("dark")}>Dark 
                         <Moon/>
                     </div>

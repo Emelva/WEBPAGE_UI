@@ -12,7 +12,11 @@ export type Todos = {
         progress: number,
         photo?: {
             image1?: string,
-            image2?: string
+            image2?: string,
+            image3?: string
         }
 }
-export type TodoList = Todos[];
+// interface AddTodo{
+//     type: "add"
+// }
+export type TodoList = Todos[] 
