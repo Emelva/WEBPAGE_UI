@@ -10,7 +10,7 @@ export default function Header(){
                 <BellDotIcon/>
                 <Calendar />
                 <h3>19 May 2022</h3>
-                <Image className="rounded-full object-cover" src={'/asianClothModel.jpg'} alt="profile" width={50} height={50}/>
+                <Image className="rounded-full object-cover h-10 w-10 overflow-hidden" src={'/asianClothModel.jpg'} alt="profile" width={50} height={50}/>
             </div>
         </main>
     )
