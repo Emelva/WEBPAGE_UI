@@ -34,7 +34,7 @@ const Container = () => {
                             <Plus className="bg-gray-300 p-1 rounded-full"/> Add new task</h1>
                     </div>
                     {Done.map(todo => (
-                        <Card key={todo.id} item={todo} type="add"/>
+                        <Card key={todo.id} item={todo}/>
                     ))}
                     <Card key="add-card" addCard />
                 </div>

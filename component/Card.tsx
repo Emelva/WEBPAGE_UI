@@ -9,14 +9,14 @@ const Card = ({item, addCard}:{item?: Todos, addCard?: boolean}) => {
 
     if (addCard) {
     return (
-      <main className="border-2 border-dashed border-gray-400 rounded-3xl my-4 p-8 mx-5 flex items-center justify-center text-gray-500 cursor-pointer hover:bg-gray-50">
-        <p className="flex items-center gap-2">Drag to add more here</p>
-      </main>
-    );
-  }
+        <main className="border-2 border-dashed border-gray-400 rounded-3xl my-4 p-8 mx-5 flex items-center justify-center text-gray-500 cursor-pointer hover:bg-gray-50">
+            <p className="flex items-center gap-2">Drag to add more here</p>
+        </main>
+        );
+    }
 
-  
-  
+    if (!item) return null;
+
     
     const { todo, topic, date, message, pin, progress, photo } = item;
     const imageUrl = [photo?.image1, photo?.image2, photo?.image3].filter(url => url);
